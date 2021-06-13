@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Ramadan kareem </title>
+  <link rel="stylesheet" href="./Css/stylesheet.css">
+  </head>
+  <body>
+<section>
+  <img src="images/ramadan kareem.jpg" class="mosque">
+  <header>
+    <a href="#" class="logo"> Ramadan</a>
+<div class="toggle">
+
+</div>
+    <ul class="nav">
+      <li><a href="#" style="--i:1;" class="active">Home</a></li>
+    <li><a href="#" style="--i:2;" >About</a></li>
+    <li><a href="#" style="--i:3;">Calendar</a></li>
+    <li><a href="#"  style="--i:4;" >Blog</a></li>
+    <li><a href="#" style="--i:5;" >Contact</a></li>
+
+    </ul>
+  </header>
+
+<div class="content">
+<div class="textbox">
+<h2>Happy Ramadan kareem</h2>
+<p>Ramadan is a time of spiritual reflection, self-improvement, and heightened devotion and worship. Muslims are expected to put more effort into following the teachings of Islam. </p>
+<a href="#">Read More</a>
+</div>
+</div>
+
+<ul class="sci">
+  <li><a href="#" style="--i:6;"><img src="images/facebook.png" ></a></li>
+  <li><a href="#"style="--i:7;"><img src="images/instagram.png" ></a></li>
+  <li><a href="#" style="--i:8;"><img src="images/twitter.png" ></a></li>
+</ul>
+
+</section>
+
+<script>
+const menu= document.querySelector('.toggle');
+const nav= document.querySelector('.nav');
+menu.onclick= function(){
+menu.classList.toggle('active');
+nav.classList.toggle('active');
+  }
+
+
+</script>
+  </body>
+</html>
